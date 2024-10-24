@@ -40,5 +40,3 @@ If you find any security vulnerabilities in **QuickCSS**, please report them imm
 - Stay up-to-date by regularly checking for the latest version of **QuickCSS** on GitHub.
 
 For any questions regarding security, feel free to reach out to us at **vexcoder.yt@gmail.com**.
-
----
