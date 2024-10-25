@@ -91,5 +91,3 @@ This project is licensed under the MIT License.
 ## 🙌 Acknowledgements
 
 Created and maintained by **[Yashwant Kargwal](https://github.com/yashwant-kargwal) & [Ravi Kumar](https://github.com/galhotra-ravi)**.
-
----
