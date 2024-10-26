@@ -9,7 +9,7 @@
 To start using QuickCSS in your project, simply include the following link in your HTML `<head>` section:
 
 ```html
-<link rel="stylesheet" href="https://yashwant-kargwal.github.io/quickcss/quickcss.css">
+<link rel="stylesheet" href="https://yashwant-kargwal.github.io/quickcss/main.css">
 ```
 
 Or install via npm:
