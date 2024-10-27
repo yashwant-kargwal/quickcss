@@ -1,32 +1,27 @@
-.btn {
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 5px;
+:root{
+    --btn-padding: 10px 20px;
+    --primary-color: #007bff;
+}
+*{
+    user-select: none;
+}
+.btn{
+    padding: var(--btn-padding);
+    border: var(--border);
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--font-btn);
+    font-size: var(--para);
+    width: fit-content;
+    height: fit-content;
     cursor: pointer;
-    border: none;
-    transition: background-color 0.3s, transform 0.2s;
 }
-
-/* Primary Button */
-.btn-primary {
-    background-color: #007bff; /* Bright blue */
-    color: #ffffff;
-}
-.btn-primary:hover {
+.btn:hover{
     background-color: #0056b3;
+    border-color: #0056b3;
 }
-
-/* Secondary Button */
-.btn-secondary {
-    background-color: #6c757d; /* Subtle grey */
-    color: #ffffff;
-}
-.btn-secondary:hover {
-    background-color: #5a6268;
-}
-
-/* Additional Styling for Animation */
-.btn:active {
-    transform: scale(0.98); /* Button scales down slightly on click */
+.btn:active{
+    background-color: #004494;
+    transition: all 0.1s ;
+    transform: scale(0.9);
 }

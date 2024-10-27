@@ -1,2 +1,50 @@
+/* QuickCSS Main CSS */
+/* Imports Other Css in Main */
 @import url(main/btn/primary-button.css);
 @import url(main/btn/secondary-button.css);
+
+/* Fonts Which are used in QuickCSS */
+@font-face {
+    /* Heading */
+    font-family: Popins-bold;
+    src: url(private/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    /* Sub Heading */
+    font-family: Popins-medium;
+    src: url(private/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    /* Body Text  */
+    font-family: Roboto-regular;
+    src: url(private/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    /* Buttons  */
+    font-family: Popins-semi-bold;
+    src: url(private/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    /* Small Text / Captions  */
+    font-family: Roboto-small-caption;
+    src: url(private/fonts/Roboto/Roboto-Light.ttf);
+}
+
+:root{
+    /* Fonts Size  */
+    --para: 16px;
+
+    /* Fonts Family here  */
+    --font-btn: popins-semi-bold;
+
+
+    --border: 1px solid var(--primary-color);
+    --border-normal: 2px solid var(--primary-color);
+    --border-bold: 3px solid var(--primary-color);
+    --border-bolder: 4px solid var(--primary-color);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
