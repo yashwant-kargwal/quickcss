@@ -1,18 +1,19 @@
+@import url(base.css);
 :root{
     --btn-padding: 10px 20px;
-    --primary-color: #007bff;
-}
-*{
-    user-select: none;
+    --primary-color: #0071eb;
+    --textColor : #fff;
 }
 .btn{
     padding: var(--btn-padding);
     border: var(--border);
     background-color: var(--primary-color);
-    color: white;
+    color: var(--textColor);
     font-family: var(--font-btn);
     font-size: var(--para);
+    text-align: center;
     width: fit-content;
+    min-width: 100px;
     height: fit-content;
     cursor: pointer;
 }
@@ -22,6 +23,6 @@
 }
 .btn:active{
     background-color: #004494;
+    transform: scale(0.95);
     transition: all 0.1s ;
-    transform: scale(0.9);
 }
