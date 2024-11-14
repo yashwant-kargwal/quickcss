@@ -1,0 +1,39 @@
+@import url(qc-base-blog.css);
+.QuickCSS-blog{
+    min-height: fit-content;
+    height: 100%;
+    max-height: max-content;
+    max-width: 700px;
+    width: 100%;
+    margin: 0px auto;
+}
+.QuickCSS-blog H1{
+    font-family: var(--headingText--);
+    font-size: 2.2rem;
+}
+.QuickCSS-blog h2 , h3 , h4 , h5, h6{
+    font-family: var(--SubHeadingText--);
+    margin: 0.5rem 0;
+}
+.QuickCSS-blog h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.375;
+}
+.QuickCSS-blog h3{
+    font-size: 1.5rem;
+}
+.QuickCSS-blog h4{
+    font-size: 1.3rem;
+}
+.QuickCSS-blog h5, h6{
+    font-size: 1rem;
+}
+.QuickCSS-blog p{
+    font-family: var(--normalText--);
+    font-size: 1.125rem;
+    margin: 1rem 0;
+    font-weight: 300;
+    overflow-wrap: normal;
+}
