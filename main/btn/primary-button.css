@@ -1,8 +1,6 @@
 @import url(base.css);
 :root{
     --btn-padding: 10px 20px;
-    --primary-color: #0071eb;
-    --textColor : #fff;
 }
 .btn{
     padding: var(--btn-padding);

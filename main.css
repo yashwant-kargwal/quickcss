@@ -35,6 +35,12 @@
 }
 
 :root{
+    /* Color */
+    --text-- : #333;
+    --text-heading-- : #000;
+    --primary-color: #0071eb;
+    --textColor : #fff;
+
     /* Fonts Size  */
     --para: 16px;
 
