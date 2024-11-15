@@ -36,10 +36,21 @@
 
 :root{
     /* Color */
-    --text-- : #333;
-    --text-heading-- : #000;
+    --text-heading : #000;
     --primary-color: #0071eb;
-    --textColor : #fff;
+    --secondary-button-color: #007aaa;
+    --secondary-color: #FFB400;    /* Accents and highlights */
+    --background-color: #F8F9FA;   /* Light background */
+    --text-color : #fff;
+    --text-visited : #007aaa;
+    --text-color: #333333;         /* Main text color */
+    --light-text-color: #666666;   /* Secondary text color */
+    --border-color: #E0E0E0;       /* Subtle borders */
+    --complementary-color: #EB4F00;/* Call-to-action or buttons */
+    --highlight-color: #00D084;    /* For highlighting specific elements */
+    --white : #fff;
+    --white-cloud : #ebebeb;
+    --white-divider : #cecece;
 
     /* Fonts Size  */
     --para: 16px;

@@ -6,7 +6,7 @@
     padding: var(--btn-padding);
     border: var(--border);
     background-color: var(--primary-color);
-    color: var(--textColor);
+    color: var(--text-color);
     font-family: var(--font-btn);
     font-size: var(--para);
     text-align: center;

@@ -1,11 +1,9 @@
 /* Welcome to Blog Base Assets Code */
 /* Developer Yashwant Kargwal */
 :root{
-    --headingText-- : Popins-bold;
-    --SubHeadingText-- : Popins-medium;
-    --normalText-- : Roboto-regular;
-    --white-- : #fff;
-    --white-cloud-- : #ebebeb;
-    --white-divider-- : #cecece;
+    --headingText : Popins-bold;
+    --SubHeadingText : Popins-medium;
+    --normalText : Roboto-regular;
+    
 }
 
