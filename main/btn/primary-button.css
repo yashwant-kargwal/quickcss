@@ -14,13 +14,14 @@
     min-width: 100px;
     height: fit-content;
     cursor: pointer;
+    user-select: none;
 }
 .btn:hover{
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
 }
 .btn:active{
-    background-color: #004494;
+    background-color: var(--secondary-color);
     transform: scale(0.95);
     transition: all 0.1s ;
 }
