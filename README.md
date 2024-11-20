@@ -66,7 +66,7 @@ Here's an example of how to get started with QuickCSS:
 
 ## 📚 Documentation
 
-For full documentation and component details, visit the [QuickCSS Documentation](https://yashwant-kargwal.github.io/quickcss/docs).
+For full documentation and component details, visit the [QuickCSS Documentation](https://quickcss.gitbook.io/quickcss-docs).
 
 ---
 
