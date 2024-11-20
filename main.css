@@ -1,7 +1,4 @@
 /* QuickCSS Main CSS */
-/* Imports Other Css in Main */
-@import url(main/btn/primary-button.css);
-@import url(main/btn/secondary-button.css);
 
 /* Fonts Which are used in QuickCSS */
 @font-face {
@@ -37,11 +34,6 @@
     /* Fonts Family here  */
     --font-btn: popins-semi-bold;
 
-
-    --border: 1px solid var(--primary-color);
-    --border-normal: 2px solid var(--primary-color);
-    --border-bold: 3px solid var(--primary-color);
-    --border-bolder: 4px solid var(--primary-color);
 }
 *{
     margin: 0px;

@@ -1,27 +1,5 @@
-:root{
-    --btn-padding: 10px 20px;
-    --primary-color: #0071eb;
-}
-*{
-    user-select: none;
-}
 .btn{
     padding: var(--btn-padding);
     border: var(--border);
     background-color: var(--primary-color);
-    color: white;
-    font-family: var(--font-btn);
-    font-size: var(--para);
-    width: fit-content;
-    height: fit-content;
-    cursor: pointer;
-}
-.btn:hover{
-    background-color: #0056b3;
-    border-color: #0056b3;
-}
-.btn:active{
-    background-color: #004494;
-    transition: all 0.1s ;
-    transform: scale(0.9);
 }

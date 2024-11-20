@@ -1,0 +1,148 @@
+@import url(qc-base-blog.css);
+.QuickCSS-blog{
+    min-height: fit-content;
+    height: 100%;
+    max-height: max-content;
+    max-width: 700px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+    color: var(--body-text);
+    background-color: var(--background-color);
+    overflow: hidden;
+}
+.QuickCSS-blog H1{
+    font-family: var(--headingText);
+    font-size: 2.2rem;
+}
+.QuickCSS-blog h1, h2{
+    color: var(--primary-color);
+
+    
+}
+.QuickCSS-blog h2 , h3 , h4 , h5, h6{
+    font-family: var(--SubHeadingText);
+    margin: 0.5rem 0;
+}
+.QuickCSS-blog h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.375;
+}
+.QuickCSS-blog h3{
+    font-size: 1.5rem;
+}
+.QuickCSS-blog h4{
+    font-size: 1.3rem;
+}
+.QuickCSS-blog p{
+    font-family: var(--normalText);
+    font-size: 1.125rem;
+    margin: 1rem 0;
+    text-align: justify;
+    font-weight: 300;
+    overflow-wrap: normal;
+}
+.QuickCSS-blog div{
+    background-color: var(--white);
+    margin: 10px;
+    padding: 15px;
+    height: fit-content;
+    min-width: fit-content;
+    font-family: var(--normalText);
+    border-radius: 8px;
+    border: 1px solid var(--div-border-color);
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.QuickCSS-blog span {
+    font-weight: bold;
+    font-family: var(--normalText);
+    color: var(--secondary-color); 
+    background-color: #EAF2F8;
+    padding: 2px 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.QuickCSS-blog code{
+    background: var(--white-cloud);
+    padding: 5px;
+    border-radius: 8px;
+    user-select: all;
+}
+.QuickCSS-blog hr{
+    width: 100%;
+    border: 1px solid var(--body-text);
+    opacity: 0.3;
+    border-radius: 50%;
+    margin: 15px 0px;
+}
+.QuickCSS-blog a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-family: var(--normalText);
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+.QuickCSS-blog a:hover{
+    border-bottom: 2px solid var(--secondary-color); 
+}
+.QuickCSS-blog a:active{
+    color: var(--body-text);
+    border-bottom: 2px solid var(--body-text); 
+}
+.QuickCSS-blog a[target="_blank"]::after {
+    content: " ↗"; /* Add an icon for external links */
+    font-size: 0.9rem;
+    color: inherit; /* Matches the link color */
+    margin-left: 2px;
+}
+.QuickCSS-blog a[href=""]::after{
+    content: " ❓ ";
+    font-size: 0.9rem;
+    color: inherit;
+    margin-left: 2px;
+}
+.QuickCSS-blog img, .QuickCSS-blog div img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    user-select: none;
+    margin: 0px auto;
+}
+.QuickCSS-blog img:hover, .QuickCSS-blog div img:hover{
+    transform: scale(1.05); /* Slight zoom on hover */
+    transition: transform 0.3s ease; /* Smooth animation */
+}
+.QuickCSS-blog img[class="style"]{
+    border: 4px solid var(--primary-color); /* Add border with primary color */
+    border-radius: 10px;       /* Rounded corners */
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.5); /* Adds shadow */
+}
+.QuickCSS-blog img[class="style"]:hover{
+    transform:  scale(1.01);
+}
+.QuickCSS-blog button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--normalText);
+    color: var(--white);
+    background-color: var(--primary-color);
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+.QuickCSS-blog button:hover{
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.QuickCSS-blog button:active{
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

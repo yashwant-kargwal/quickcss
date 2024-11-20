@@ -1,0 +1,22 @@
+/* border Radius Css Function here */
+.qc-round1{
+    border-radius: 5px;
+}
+.qc-round2{
+    border-radius: 10px;
+}
+.qc-round3{
+    border-radius: 15px;
+}
+.qc-round4{
+    border-radius: 20px;
+}
+.qc-round5{
+    border-radius: 25px;
+}
+
+/* Active state code here */
+.qc-active:active{
+    transform: scale(0.95);
+    transition: all 0.1s ;
+}

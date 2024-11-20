@@ -12,12 +12,6 @@ To start using QuickCSS in your project, simply include the following link in yo
 <link rel="stylesheet" href="https://yashwant-kargwal.github.io/quickcss/main.css">
 ```
 
-Or install via npm:
-
-```bash
-npm install quickcss
-```
-
 ---
 
 ## 🚀 Features
@@ -42,7 +36,7 @@ Here's an example of how to get started with QuickCSS:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://yashwant-kargwal.github.io/quickcss/quickcss.css">
+  <link rel="stylesheet" href="https://yashwant-kargwal.github.io/quickcss/main.css">
   <title>QuickCSS Example</title>
 </head>
 <body>
@@ -65,7 +59,7 @@ Here's an example of how to get started with QuickCSS:
 ### Button Example:
 
 ```html
-<button class="btn-primary">Click Me!</button>
+<button class="btn">Click Me!</button>
 ```
 
 ---
@@ -90,4 +84,4 @@ This project is licensed under the MIT License.
 
 ## 🙌 Acknowledgements
 
-Created and maintained by **[Yashwant Kargwal](https://github.com/yashwant-kargwal) & [Ravi Kumar](https://github.com/galhotra-ravi)**.
+Created and maintained by **[Yashwant Kargwal](https://github.com/yashwant-kargwal)**.
