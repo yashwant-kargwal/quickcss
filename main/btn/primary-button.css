@@ -1,27 +1,5 @@
-@import url(base.css);
-:root{
-    --btn-padding: 10px 20px;
-}
 .btn{
     padding: var(--btn-padding);
     border: var(--border);
     background-color: var(--primary-color);
-    color: var(--text-color);
-    font-family: var(--font-btn);
-    font-size: var(--para);
-    text-align: center;
-    width: fit-content;
-    min-width: 100px;
-    height: fit-content;
-    cursor: pointer;
-    user-select: none;
-}
-.btn:hover{
-    background-color: var(--secondary-color);
-    border-color: var(--secondary-color);
-}
-.btn:active{
-    background-color: var(--secondary-color);
-    transform: scale(0.95);
-    transition: all 0.1s ;
 }
