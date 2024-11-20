@@ -17,8 +17,6 @@
 }
 .QuickCSS-blog h1, h2{
     color: var(--primary-color);
-
-    
 }
 .QuickCSS-blog h2 , h3 , h4 , h5, h6{
     font-family: var(--SubHeadingText);
@@ -145,4 +143,19 @@
 .QuickCSS-blog button:active{
     transform: translateY(0);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.QuickCSS-blog iframe{
+    aspect-ratio: 16/9;
+    width: 90%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.QuickCSS-blog iframe:hover{
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
 }
