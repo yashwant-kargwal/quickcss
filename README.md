@@ -1,88 +1,107 @@
-# QuickCSS
+# **QuickCSS**  
 
-**QuickCSS** is a lightweight, responsive CSS library designed to simplify and speed up web development. Whether you're building simple websites or complex web apps, QuickCSS provides you with a range of customizable components, layouts, and utilities that work seamlessly.
-
----
-
-## 📦 Installation
-
-To start using QuickCSS in your project, simply include the following link in your HTML `<head>` section:
-
-```html
-<link rel="stylesheet" href="https://yashwant-kargwal.github.io/quickcss/main.css">
-```
+**QuickCSS** is a lightweight, responsive CSS library tailored for effortless web development. Ideal for creating blogs, animations, buttons, and UI components, QuickCSS empowers developers to design stunning websites with minimal effort.  
 
 ---
 
-## 🚀 Features
+## 📦 **Installation**  
 
-- **Lightweight & Fast:** Minimal CSS, focused on performance.
-- **Responsive Grid:** Easily create responsive layouts with a flexible grid system.
-- **Customizable Components:** Pre-designed buttons, forms, cards, and more.
-- **Cross-browser Support:** Works across all modern browsers.
-- **Easy to Use:** Simple syntax, designed for developers of all levels.
+To integrate QuickCSS into your project, add the following link to the `<head>` section of your HTML file:  
 
----
-
-## 🛠️ Usage
-
-Here's an example of how to get started with QuickCSS:
-
-### Basic Layout Example:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://yashwant-kargwal.github.io/quickcss/main.css">
-  <title>QuickCSS Example</title>
-</head>
-<body>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-6">
-        <h1>Welcome to QuickCSS!</h1>
-      </div>
-      <div class="col-6">
-        <p>This is an example of a two-column layout.</p>
-      </div>
-    </div>
-  </div>
-
-</body>
-</html>
-```
-
-### Button Example:
-
-```html
-<button class="btn">Click Me!</button>
-```
+```html  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yashwant-kargwal/quickcss@latest/main.css">
+```  
 
 ---
 
-## 📚 Documentation
+## 🚀 **Features**  
 
-For full documentation and component details, visit the <a href="https://quickcss.gitbook.io/quickcss-docs" target="_blank" rel="noopener noreferrer">QuickCSS Documentation</a>
-.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+- **Lightweight & Optimized**: Minimal CSS for faster loading.  
+- **Responsive Blog Styling**: Perfect for creating mobile-friendly blogs.  
+- **Pre-designed Blog Components**: Includes blockquotes, lists, and tables for structured and styled content.  
+- **Future Enhancements**: Upcoming features like animations, buttons, and more UI components to make your designs even better.  
 
 ---
 
-## 📄 License
+## 🛠️ **Usage**  
 
-This project is licensed under the MIT License.
+Here's how to get started with QuickCSS:  
+
+### Blog Example:  
+
+```html  
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yashwant-kargwal/quickcss@qck1.0.5/main.css">
+  <title>QuickCSS Blog</title>  
+</head>  
+<body>  
+
+  <div class="QuickCSS-blog">  
+    <h2>Blockquote Example</h2>
+      <blockquote class="qck-blockquote">
+        "QuickCSS makes your web development easier, faster, and responsive."
+      </blockquote>
+    </section>
+
+    <section>
+      <h2>List Example</h2>
+      <h3>Ordered List:</h3>
+      <ol class="qck-list">
+        <li>Lightweight CSS</li>
+        <li>Responsive Design</li>
+        <li>Customizable Components</li>
+      </ol>
+
+      <h3>Unordered List:</h3>
+      <ul class="qck-list">
+        <li>Blockquotes</li>
+        <li>Lists</li>
+        <li>Tables</li>
+      </ul>
+  </div>  
+
+</body>  
+</html>  
+```  
 
 ---
 
-## 🙌 Acknowledgements
+## 📚 **Documentation**  
 
-Created and maintained by **[Yashwant Kargwal](https://github.com/yashwant-kargwal)**.
+For complete usage details and updates, visit the **[QuickCSS Documentation](https://quickcss.gitbook.io/quickcss-docs/)**.  
+
+---
+
+## 🤝 **Contributing**  
+
+Contributions are always welcome!  
+- Join discussions on **[GitHub Discussions](https://github.com/yashwant-kargwal/quickcss/discussions)**.  
+- For major changes, open an issue to discuss your ideas.  
+
+---
+
+## 📄 **License**  
+
+This project is licensed under the **MIT License**.  
+
+---
+
+## 📧 **Support**  
+
+Facing any issues? Have suggestions?  
+- Join our **GitHub Discussions**.  
+- Email us at **vexcoder.yt@gmail.com**.  
+
+---
+
+## 🙌 **Acknowledgements**  
+
+Created and maintained by **[Yashwant Kargwal](https://github.com/yashwant-kargwal)**.  
+
+--- 
+
+### **Stay tuned for upcoming features like animations, buttons, and more UI elements to supercharge your projects!**  
