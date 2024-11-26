@@ -1,9 +1,10 @@
 @import url(qc-base-blog.css);
+
 .QuickCSS-blog{
     min-height: fit-content;
     height: 100%;
     max-height: max-content;
-    max-width: 700px;
+    max-width: 700px; /* Max width of the blog */
     width: 100%;
     margin: 0px auto;
     padding: 0px auto;
@@ -11,29 +12,33 @@
     background-color: var(--background-color);
     overflow: hidden;
 }
-.QuickCSS-blog H1{
+
+.QuickCSS-blog h1{
     font-family: var(--headingText);
     font-size: 2.2rem;
 }
-.QuickCSS-blog h1, h2{
-    color: var(--primary-color);
-}
+
+
 .QuickCSS-blog h2 , h3 , h4 , h5, h6{
     font-family: var(--SubHeadingText);
     margin: 0.5rem 0;
 }
+
 .QuickCSS-blog h2{
     font-size: 1.75rem;
     font-weight: 600;
     letter-spacing: normal;
     line-height: 1.375;
 }
+
 .QuickCSS-blog h3{
     font-size: 1.5rem;
 }
+
 .QuickCSS-blog h4{
     font-size: 1.3rem;
 }
+
 .QuickCSS-blog p{
     font-family: var(--normalText);
     font-size: 1.125rem;
@@ -42,6 +47,7 @@
     font-weight: 300;
     overflow-wrap: normal;
 }
+
 .QuickCSS-blog div{
     background-color: var(--white);
     margin: 10px;
@@ -54,6 +60,7 @@
     overflow: hidden;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .QuickCSS-blog span {
     font-weight: bold;
     font-family: var(--normalText);
@@ -63,12 +70,14 @@
     border-radius: 4px;
     display: inline-block;
 }
+
 .QuickCSS-blog code{
     background: var(--white-cloud);
-    padding: 5px;
+    padding: 2px;
     border-radius: 8px;
     user-select: all;
 }
+
 .QuickCSS-blog hr{
     width: 100%;
     border: 1px solid var(--body-text);
@@ -76,6 +85,7 @@
     border-radius: 50%;
     margin: 15px 0px;
 }
+
 .QuickCSS-blog a{
     text-decoration: none;
     color: var(--primary-color);
@@ -84,25 +94,30 @@
     border-bottom: 2px solid transparent;
     transition: color 0.3s, border-bottom 0.3s;
 }
+
 .QuickCSS-blog a:hover{
     border-bottom: 2px solid var(--secondary-color); 
 }
+
 .QuickCSS-blog a:active{
     color: var(--body-text);
     border-bottom: 2px solid var(--body-text); 
 }
+
 .QuickCSS-blog a[target="_blank"]::after {
     content: " ↗"; /* Add an icon for external links */
     font-size: 0.9rem;
     color: inherit; /* Matches the link color */
     margin-left: 2px;
 }
+
 .QuickCSS-blog a[href=""]::after{
     content: " ❓ ";
     font-size: 0.9rem;
     color: inherit;
     margin-left: 2px;
 }
+
 .QuickCSS-blog img, .QuickCSS-blog div img{
     max-width: 100%;
     height: auto;
@@ -110,18 +125,22 @@
     user-select: none;
     margin: 0px auto;
 }
+
 .QuickCSS-blog img:hover, .QuickCSS-blog div img:hover{
     transform: scale(1.05); /* Slight zoom on hover */
     transition: transform 0.3s ease; /* Smooth animation */
 }
+
 .QuickCSS-blog img[class="style"]{
     border: 4px solid var(--primary-color); /* Add border with primary color */
     border-radius: 10px;       /* Rounded corners */
     box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.5); /* Adds shadow */
 }
+
 .QuickCSS-blog img[class="style"]:hover{
     transform:  scale(1.01);
 }
+
 .QuickCSS-blog button{
     padding: 10px 20px;
     font-size: 16px;
@@ -136,14 +155,17 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
 }
+
 .QuickCSS-blog button:hover{
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
+
 .QuickCSS-blog button:active{
     transform: translateY(0);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .QuickCSS-blog iframe{
     aspect-ratio: 16/9;
     width: 90%;
@@ -154,8 +176,158 @@
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .QuickCSS-blog iframe:hover{
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
     transition: all 0.3s ease;
+}
+
+.QuickCSS-blog blockquote, .QuickCSS-blog div[class="qoute"]{
+    border-left: 5px solid var(--primary-color);
+    background-color: var(--background-color);
+    color: var(--body-text);
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 1.1em;
+    font-family: var(--normalText);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 90%;
+}
+
+.QuickCSS-blog blockquote::before, .QuickCSS-blog div[class="qoute"]::before {
+    content: "“";
+    font-size: 2.5em;
+    color: var(--third-color);
+    line-height: 0;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.QuickCSS-blog blockquote p , .QuickCSS-blog div[class="qoute"] p{
+    margin: 0;
+}
+
+.QuickCSS-blog ul, ol {
+    padding-left: 20px;
+    margin: 20px 0;
+    list-style-position: inside; /* Items align nicely with their parent container */
+    font-size: 1rem;
+    font-family: var(--normalText);
+    color: var(--body-text);
+}
+
+.QuickCSS-blog ul {
+    list-style-type: disc; /* Default bullet style for unordered lists */ 
+} 
+
+.QuickCSS-blog  ol {
+    list-style-type: decimal;
+    counter-reset: none;
+} 
+
+.QuickCSS-blog  ul li, ol li {
+    margin-bottom: 10px;
+    padding-left: 5px; 
+    position: relative;
+}
+
+.QuickCSS-blog div[class="table"]{
+  overflow-x: auto;
+  overflow: auto;
+  min-width: 60px !important;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.QuickCSS-blog table {
+    width: 100%;
+    max-width: 90%;
+    min-width: max-content;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: var(--normalText);
+    overflow: hidden;
+}
+
+.QuickCSS-blog thead th {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: left;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.QuickCSS-blog tr {
+    border-bottom: 1px solid var(--third-color);
+}
+
+.QuickCSS-blog tr:nth-child(even) {
+    background-color: rgba(0, 113, 235, 0.1);
+}
+
+.QuickCSS-blog tr:hover {
+    background-color: var(--third-color);
+    color: #fff;
+}
+
+.QuickCSS-blog tbody td {
+    padding: 12px 15px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .QuickCSS-blog {
+        max-width: 90%; /* Reduce max width for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .QuickCSS-blog {
+        max-width: 95%; /* Further reduce max width for smaller tablets and larger phones */
+    }
+    .QuickCSS-blog h1 {
+        font-size: 1.8rem; /* Reduce font size of h1 */
+    }
+    .QuickCSS-blog h2 {
+        font-size: 1.5rem; /* Adjust h2 font size */
+    }
+    .QuickCSS-blog p {
+        font-size: 1rem; /* Adjust paragraph font size */
+    }
+    .QuickCSS-blog div[class="table"]::after{
+        content: "Scroll ➡";
+    }    
+}
+
+@media (max-width: 480px) {
+    .QuickCSS-blog {
+        max-width: 100%; /* Make the blog container 100% width on mobile */
+        padding: 0 10px; /* Add padding for mobile */
+    }
+    .QuickCSS-blog h1 {
+        font-size: 1.5rem; /* Adjust h1 for mobile */
+    }
+    .QuickCSS-blog h2 {
+        font-size: 1.3rem; /* Adjust h2 for mobile */
+    }
+    .QuickCSS-blog p {
+        font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+    .QuickCSS-blog img, .QuickCSS-blog iframe {
+        max-width: 100%; /* Make images and iframes responsive */
+    }
 }
