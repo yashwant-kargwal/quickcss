@@ -72,7 +72,7 @@ Here's how to get started with QuickCSS:
 
 ## 📚 **Documentation**  
 
-For complete usage details and updates, visit the **[QuickCSS Documentation](https://quickcss.gitbook.io/quickcss-docs/)**.  
+For complete usage details and updates, visit the **[QuickCSS Documentation](https://quickcss-docs.hashnode.space/guide/welcome)**.  
 
 ---
 
