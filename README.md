@@ -96,7 +96,11 @@ This project is licensed under the **MIT License**.
 
 Facing any issues? Have suggestions?  
 - Join our **GitHub Discussions**.  
-- Email us at **vexcoder.yt@gmail.com**.  
+- Email us at **vexcoder.yt@gmail.com**.
+
+If you like QuickCSS, consider supporting me by buying me a coffee! ☕
+
+[![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee&logoColor=white)](https://quickcss-docs.hashnode.space/guide/support-and-donation/buy-me-a-coffee#ways-to-contribute)
 
 ---
 
