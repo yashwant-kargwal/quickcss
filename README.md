@@ -1,5 +1,7 @@
 # **QuickCSS**  
 
+<img src="https://github.com/yashwant-kargwal/quickcss/blob/main/private/media/image/banner/QuickCSS.gif?raw=true" alt="QuickCSS Banner">
+
 **QuickCSS** is a lightweight, responsive CSS library tailored for effortless web development. Ideal for creating blogs, animations, buttons, and UI components, QuickCSS empowers developers to design stunning websites with minimal effort.  
 
 ---
