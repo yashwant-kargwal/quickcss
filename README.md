@@ -52,14 +52,14 @@ Here's how to get started with QuickCSS:
     <section>
       <h2>List Example</h2>
       <h3>Ordered List:</h3>
-      <ol class="qck-list">
+      <ol>
         <li>Lightweight CSS</li>
         <li>Responsive Design</li>
         <li>Customizable Components</li>
       </ol>
 
       <h3>Unordered List:</h3>
-      <ul class="qck-list">
+      <ul>
         <li>Blockquotes</li>
         <li>Lists</li>
         <li>Tables</li>
