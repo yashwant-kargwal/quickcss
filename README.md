@@ -44,7 +44,7 @@ Here's how to get started with QuickCSS:
 
   <div class="QuickCSS-blog">  
     <h2>Blockquote Example</h2>
-      <blockquote class="qck-blockquote">
+      <blockquote>
         "QuickCSS makes your web development easier, faster, and responsive."
       </blockquote>
     </section>
