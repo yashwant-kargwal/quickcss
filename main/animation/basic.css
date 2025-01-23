@@ -1,0 +1,155 @@
+.qc-ani-fadeIn{
+    animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.qc-ani-slideIn{
+    animation: slideIn 2s ease-in;
+}
+  
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.qc-ani-bounce{
+    animation: bounce 2s ease-in-out infinite;
+}
+  
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.qc-ani-pulse{
+    animation: pulse 2s ease-in-out infinite;
+}
+  
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.qc-ani-rotate{
+    animation: rotate 2s ease-in-out infinite normal;
+}
+  
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.qc-ani-zoomIn{
+    animation: zoomIn 2s ease-in-out;
+}
+  
+@keyframes zoomIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+.qc-ani-shake{
+    animation: shake 0.5s ease-in-out infinite;
+}
+  
+@keyframes shake{
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+}
+
+.qc-ani-colorChange {
+    animation: colorChange 3s linear infinite;
+  }
+  
+@keyframes colorChange {
+    0% { background-color: red; }
+    50% { background-color: blue; }
+    100% { background-color: green; }
+}
+.qc-ani-swing{
+    animation: swing 1s ease-in-out 0.5s;
+}
+  
+@keyframes swing{
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.qc-ani-swingInfinite{
+    animation: swingInfinite 1s ease-in-out infinite;
+}
+
+@keyframes swingInfinite {
+    0% { transform: rotate(0deg); }
+    30% {transform: rotate(0deg);}
+    40% { transform: rotate(5deg); }   
+    50% { transform: rotate(0deg); }    
+    60% { transform: rotate(-5deg); }
+    70% {transform: rotate(0deg);}  
+    100% { transform: rotate(0deg); }   
+}
+
+.qc-ani-flip {
+    animation: flip 2s ease-in-out;
+}
+  
+@keyframes flip {
+    from { transform: rotateX(180deg); }
+    to { transform: rotateX(0deg); }
+}
+
+.qc-ani-hoverShine{
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background 0.5s ease;
+}
+  
+/* Shine appears on hover */
+.qc-ani-hoverShine:hover:after {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    height: 200%;
+    width: 200%;
+    background: linear-gradient(to bottom right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+    animation: slide 1s forwards;
+    filter: blur(33px);
+}
+  
+@keyframes slide {
+    from { top: -100%; left: -100%; }
+    to { top: 100%; left: 100%; }
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+.qc-ani-swingInfinite:hover, .qc-ani-bounce:hover, .qc-ani-shake:hover, .qc-ani-rotate:hover{
+    animation: none;
+}

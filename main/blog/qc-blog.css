@@ -105,9 +105,9 @@
 }
 
 .QuickCSS-blog a[target="_blank"]::after {
-    content: " ↗"; /* Add an icon for external links */
+    content: " ↗";
     font-size: 0.9rem;
-    color: inherit; /* Matches the link color */
+    color: inherit;
     margin-left: 2px;
 }
 
